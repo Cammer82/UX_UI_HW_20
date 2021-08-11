@@ -1,0 +1,330 @@
+body,
+html{
+      height: 100%;
+}
+
+.nav-link,
+.nav-bar {
+    color: white;
+}
+
+body {
+    background-color: #1F0617;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: #D610DD;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.nav-link {
+    display: inline-flex;
+    height: 40px;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.introline {
+    text-align: center;
+    font-size: 34px;
+    padding-top: 15%;
+    color: whitesmoke;
+    font-family: 'Shadows Into Light',cursive;
+}
+
+.portfoliomain {
+    margin-top: 30%;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.FCCLogo {
+    display: flex;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.FCClabel {
+    text-align: left;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+.FCCBody {
+    text-align: left;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.Mindfullogo {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.Mindfullable {
+    text-align: left;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+.MindfulBody {
+    color:white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.WGEFlogo {
+    display: flex;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.WGEFLable {
+    color: white;
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.WGEFBody {
+    color:white;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 20%;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50%;
+    text-align: center;
+    background-color: #D610DD;
+}
+.contactbuttons {
+  padding: 16px 32px;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+ }
+
+.project-images {
+    height: 200px;
+    width: auto;
+    max-width: 400px;
+}
+h5 {
+    margin-top: unset;
+}
+.content-wrapper {
+    margin: 0 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-link-left,
+    .nav-link-right,
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-images {
+        height: 100px;
+        width: 100px;
+    }
+
+    .FCCLogo,
+    .WGEFlogo, 
+    .Mindfullogo {
+        align-items: center;
+        flex-direction: column;
+    }
+    .intro {
+        font-size: 50%;
+    }
+    body {
+        background-color: black;
+    }
+}
+.aboutMe {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    color:whitesmoke;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 12px;
+}
+
+.aboutMePhoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+.myStory {
+    margin-top: 40px;
+}
+
+.myResume {
+    display:flex;
+    flex-direction: column;
+    font-size: 25px;
+    color:cornflowerblue;
+    margin-inline-start: 25%;
+    margin-inline-end: 25%;
+}
+
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding: 0px;
+}
+a{
+	text-decoration:none;
+}
+
+#contact{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	align-items: center;
+}
+
+.contact-box{
+	background-color:#434445;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 30px;
+	box-shadow: 2px 0px 30px rgba(0,0,0,0.1);
+}
+.c-heading h1{
+	font-family: Roboto;
+	color: #e7eef3;
+	font-size: 2.5rem;
+	font-weight: lighter;
+	margin: 0px;
+	padding: 0px;
+}
+.c-heading p{
+	font-family: Roboto;
+	color:#cecece;
+	font-size: 0.8rem;
+	font-weight: lighter;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.c-inputs{
+	margin: 15px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.c-inputs input{
+	width:250px;
+	height: 45px;
+	background-color:transparent; 
+	border: none;
+	border-bottom: 1px solid rgba(251,251,251,0.1);
+	outline: none;
+	margin: 10px 0px;
+	padding: 10px;
+	box-sizing: border-box;
+	color: #f4f4f4;
+	display: flex;
+}
+.c-inputs textarea{
+	width:250px !important;
+	height: 200px !important;
+	outline: none;
+	background-color: transparent;
+	border:1px solid rgba(82,82,82,1);
+	color: #f4f4f4;
+	padding: 10px;
+	font-size: 1.2rem;
+	box-sizing: border-box;
+}
+.c-inputs button{
+	width:200px;
+	height: 40px;
+	background-color: #FFFFFF;
+	border: none;
+	outline: none;
+	margin-top: 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+	letter-spacing: 1px;
+}
+.c-inputs input:focus{
+	border-bottom: 1px solid rgba(252,252,252,1.00);
+	transition: all ease 0.5s;
+}
+.c-inputs textarea:focus{
+	border: none;
+	border-bottom: 1px solid rgba(255,255,255,1.00);
+	transition: all ease 0.5s;
+	background-color: rgba(0,0,0,0.1);
+}
+.c-inputs button:active{
+	transform: scale(1.02);
+}
+
+}
+@media(max-width:1100px){
+	.map{
+		display: none;
+	}
+}
+@media(max-width:450px){
+	.social{
+		display: none;
+	}
+	.contact-box{
+		width: 100%;
+		height: 100vh;
+		box-sizing: border-box;
+	}
+	#contact{
+		position: static;
+		transform: translate(0,0);
+		width:100%;
+		height: 100vh;
+		box-sizing: border-box;
+	}
+	.c-heading h1{
+		font-size: 2.2rem;
+		text-align: center;
+	}
+	
+}
+
+#myBtn {
+    background-color: violet;
+}
+
+.fa {
+    margin-left: 550px;
+    text-align: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    color: white;
+}
+
+
