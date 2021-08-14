@@ -326,5 +326,22 @@ a{
 .fa-linkedin {
     color: white;
 }
+.jumbotron {
+    color:white;
+    padding:60px 50px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.container {
+    color: white;
+    padding:60px 50px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
 
+.col-sm-4 {
+    margin-top: 20%;
+}
 
